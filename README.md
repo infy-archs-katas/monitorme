@@ -49,6 +49,8 @@ StayHealthy, Inc. is now expanding into the medical monitoring market, and is in
 
 Below is the proposed high level architecture for implementing the ***MonitorMe*** solution.
 
+![](https://github.com/infy-archs-katas/monitorme/blob/main/diagrams/C4-SystemContext.png)
+
 Below are the different systems involved in realizing this solution.
 
 | System Name  | System Description |
