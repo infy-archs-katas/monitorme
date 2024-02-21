@@ -1,10 +1,10 @@
-This repository is created for solution created by team "InfyArchs" as part of the O'Reilly Architecture Katas Winter 2024 edition. This has the solution proposal for "MonitorMe" usecase identified for this Katas event.
+This repository is created for solution created by team ***InfyArchs*** as part of the ***O'Reilly Architecture Katas Winter 2024 edition***. This has the solution proposal for "MonitorMe" usecase identified for this Katas event.
 
 Team Members:
-- Bhagwandas Gupta
-- Christophe Pillot
-- Kishore Allwynraj Arul Gnanaraj
-- Rami Chalhoub
+- ***Bhagwandas Gupta***
+- ***Christophe Pillot***
+- ***Kishore Allwynraj Arul Gnanaraj***
+- ***Rami Chalhoub***
 
 ---
 
