@@ -32,6 +32,13 @@ Below is the high level architecture view of ***Vitals Monitoring System***.
 - Microservices
 
 ## Deployment View
+Below is the deployment view based on the architecture choice and this ADR [Use K3s as orchestrator platform within devices.md](https://github.com/infy-archs-katas/monitorme/blob/main/ADRs/Use%20K3s%20as%20orchestrator%20platform%20within%20devices.md)
 
+![](https://github.com/infy-archs-katas/monitorme/blob/main/diagrams/VMS-DeploymentView.png)
 
 ## Devops Model
+Below is the devops approach following the gitops approach as decided in this ADR [Gitops approach for deployment](https://github.com/infy-archs-katas/monitorme/blob/main/ADRs/Gitops%20approach%20for%20deployment.md)
+
+![](https://github.com/infy-archs-katas/monitorme/blob/main/diagrams/VMS-DevopsView.png)
+
+
