@@ -25,6 +25,7 @@ Below is the high level architecture view of ***Vitals Monitoring System***.
 | Recoverability  | Applications running inside edge devices should have the ability to recover from unexpected failures or crash. This can be achived by having an external orchestrator which can restart the applications automatically whenever applications crashes in unexpected way. Please refer this ADR [Use K3s as orchestrator platform within devices.md](https://github.com/infy-archs-katas/monitorme/blob/main/ADRs/Use%20K3s%20as%20orchestrator%20platform%20within%20devices.md) |
 | Security  | Patient vitals information is a secure data. The data should be encrypted at rest and transit.  |
 | Deployability  | New changes implemented on the applications should be rolled out to all devices quickly. This can be achived by implementing Gitops model for continuous deployment. Please refer this ADR [Gitops approach for deployment](https://github.com/infy-archs-katas/monitorme/blob/main/ADRs/Gitops%20approach%20for%20deployment.md) |
+| Maintainability & Monitoring  | New devices should be onboarded faster and also all edge devices needs to be monitored centrally to identify failures ahead. Please refer this ADR [Rancher for monitoring K3s clusters on edge devices](https://github.com/infy-archs-katas/monitorme/blob/main/ADRs/Rancher%20for%20monitoring%20K3s%20clusters%20on%20edge%20devices.md) |
 
 
 ## Architectural Choice
