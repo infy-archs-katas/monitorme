@@ -11,7 +11,7 @@ Below is the high level architecture view of ***Admin System***.
 
 | Component Name  | Component Description | Technology Choices |
 | ------------- | ------------- | ------------- |
-| **Monitor Admin Web and SPA ***  | Web application that will deliver the SPA to administrators where the Onboarding of hospitals and devices registration UI resides. | ASP.Net MVC | 
+| ***Monitor Admin Web and SPA ***  | Web application that will deliver the SPA to administrators where the Onboarding of hospitals and devices registration UI resides. | ASP.Net MVC | 
 | ***Database***  | NoSQL database which is used to store the hospital onboarding and devices registration metadata. | Mongo Db  |
 | ***Admin API Application***  | API service which is used to do the interaction between the SPA and the database, and also with the Vitals Monitoring System  | .NET API service.  |
 
