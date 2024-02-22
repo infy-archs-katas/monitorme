@@ -16,7 +16,7 @@ The Hospital Software System is designed to facilitate comprehensive patient mon
 | **Administration UI Application**  | An application for hospital administrators to perform tasks such as adding patients for monitoring, assigning monitoring devices, assigning nurses to nurse stations, and mapping patients to nurse stations.  | Single Page Application using React  |
 | **Database**  | Database component to store data related to patients, monitoring devices, nurses, and nurse stations.  | PostgreSQL  |
 | **Nurse Station UI Application**  | UI application for nurses to monitor patient vital metrics. It utilizes React with embedded Grafana dashboards for a visual representation of vital metrics.  | React with embedded Grafana dashboards  |
-| **Vitals UI Application **  | UI application for medical staff to generate consolidated patient's vital profile for a requested time period. It includes upload functionality to MyMedicalData for a given patient.  | React Single Page Application  |
+| **Vitals UI Application**  | UI application for medical staff to generate consolidated patient's vital profile for a requested time period. It includes upload functionality to MyMedicalData for a given patient.  | React Single Page Application  |
 | **API Component - Vitals REST Service**  | REST service for exposing vital measurements per vital type.  | Node.js  |
 | **API Component - Real-Time Alerts WebSocket Service**  | WebSocket service for pushing real-time alerts to single-page clients (web clients).  | Node.js  |
 | **API Component - Snapshot REST Service**  | REST service for exposing snapshotting and snapshot upload functions, with secure integration with MyMedicalData via HTTP interface.  | Node.js  |
