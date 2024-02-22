@@ -27,3 +27,8 @@ Below is the high level architecture view of ***Alerting System***.
 
 - Microservices
 - Event-driven
+
+## Deployment View
+Below is the deployment view based on the architecture choice and this ADR [AWS SNS for sending mobile push notifications.md](https://github.com/infy-archs-katas/monitorme/blob/main/ADRs/AWS%20SNS%20for%20sending%20mobile%20push%20notifications.md)
+
+![](https://github.com/infy-archs-katas/monitorme/blob/main/diagrams/Alerts-DeploymentView.png)
