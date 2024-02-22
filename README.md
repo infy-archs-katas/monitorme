@@ -2,9 +2,9 @@ This repository is created for solution created by team ***InfyArchs*** as part 
 
 Team Members:
 - ***Bhagwandas Gupta***
-- ***Christophe Pillot***
-- ***Kishore Allwynraj Arul Gnanaraj***
-- ***Rami Chalhoub***
+- [***Christophe Pillot***](https://www.linkedin.com/in/christophe-pillot-ba361b178/)
+- [***Kishore Allwynraj Arul Gnanaraj***](https://www.linkedin.com/in/kishoregnanaraj/)
+- [***Rami Chalhoub***](https://www.linkedin.com/in/chalhoubrami/)
 
 ---
 
