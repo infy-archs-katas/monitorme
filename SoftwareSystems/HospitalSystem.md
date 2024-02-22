@@ -7,4 +7,4 @@ The Hospital Software System is designed to facilitate comprehensive patient mon
 
 ## High Level Architecture
 
-![Alt text](diagrams/C2-HospitalSystem.png "High Level Architecture")
+![](https://github.com/infy-archs-katas/monitorme/blob/main/diagrams/C2-HospitalSystem.png)
