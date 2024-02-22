@@ -30,7 +30,7 @@ Below is the high level architecture view of ***Admin System***.
 - Microservices
 
 ## Deployment View
-Below is the deployment view based on the architecture choice and this ADR [Deploy Admin System in cloud.md](https://github.com/infy-archs-katas/monitorme/blob/main/ADRs/Deploy Admin System in cloud.md)
+Below is the deployment view based on the architecture choice and this ADR [Deploy Admin System in cloud.md](https://github.com/infy-archs-katas/monitorme/blob/main/ADRs/Deploy%20Admin%20System%20in%20cloud.md)
 
 ![](https://github.com/infy-archs-katas/monitorme/blob/main/diagrams/MAS-DeploymentView.png)
 
