@@ -49,10 +49,10 @@ The Hospital Software System is designed to facilitate comprehensive patient mon
 ## Deployment View
 Below is the deployment view based on the architecture choice 
 
-![](https://github.com/infy-archs-katas/monitorme/blob/main/diagrams/HospitalSystemDevOps.png)
+![](https://github.com/infy-archs-katas/monitorme/blob/main/diagrams/HSDeployment-view.png)
 
 ## Devops Model
 Below is the devops approach following the gitops approach 
 
-![](https://github.com/infy-archs-katas/monitorme/blob/main/diagrams/VMS-DevopsView.png)
+![](https://github.com/infy-archs-katas/monitorme/blob/main/diagrams/HospitalSystemDevOps.png)
 
