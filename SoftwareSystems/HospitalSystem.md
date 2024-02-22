@@ -42,12 +42,14 @@ The Hospital Software System is designed to facilitate comprehensive patient mon
 
 ## Architectural Choice
 
-- Microservices
+- **Microservices:**
+  The decision to adopt a microservices architecture stems from the need for a scalable, modular, and maintainable system in the design of the Hospital Software System. By breaking down the overall application into smaller, independent microservices, each responsible for a specific functionality, we can achieve improved scalability and flexibility. Microservices enable individual components to scale independently, allowing for efficient resource utilization based on demand. Additionally, the modular nature of microservices promotes ease of maintenance and updates, as changes to one service do not necessarily impact others. The use of a container platform, such as Docker, complements the microservices architecture by providing a consistent and isolated runtime environment for each service. Containerization ensures seamless deployment across various environments, streamlining the development and deployment processes. The combination of microservices and containerization aligns with modern software development practices, fostering agility, fault isolation, and improved resource management in the context of the Hospital Software System.
+
 
 ## Deployment View
 Below is the deployment view based on the architecture choice 
 
-![](https://github.com/infy-archs-katas/monitorme/blob/main/diagrams/VMS-DeploymentView.png)
+![](https://github.com/infy-archs-katas/monitorme/blob/main/diagrams/HospitalSystemDevOps.png)
 
 ## Devops Model
 Below is the devops approach following the gitops approach 
