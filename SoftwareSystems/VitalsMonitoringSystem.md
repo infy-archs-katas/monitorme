@@ -1,5 +1,7 @@
 # Vitals Monitoring System
 
+The device sensors are the key component which will be used to read the patient's vitals, however these are hardware components and will not have the intrinsic ability to store the data for long term and also syncronize the data for long term storage. This is where building a reliable application ecosystem around the sensor to manage the data integrity and synscronization charecteristics is really important.
+
 ***Vitals Monitoring System*** is the software system which will be deployed on the devices which will be used to capture the patient vitals information.
 
 Below is the high level architecture view of ***Vitals Monitoring System***.
