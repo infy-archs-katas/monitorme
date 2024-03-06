@@ -5,6 +5,13 @@
 
 The Hospital Software System is designed to facilitate comprehensive patient monitoring, including real-time metrics capturing and alerting. It interacts with the MonitorMe Metrics Capturing System for retrieving patient vital metrics and the MonitorMe Alerting System for receiving alerts based on real-time anomaly detection.
 
+| Feature | WHY | WHAT | HOW |
+| --- | --- | --- | --- |
+| Vital Monitoring Dashboard for Nurse Station with Real-Time Alerts | WHY: Timely responsiveness is critical for patient monitoring, and swift awareness of vital signs can be life-saving in emergencies. | WHAT: Real-time monitoring and alerting system for vital signs at nurse stations. | HOW: Implement HTTP-based polling mechanism for retrieving vital signs data periodically. Adopt a WebSocket-based approach for bidirectional communication, ensuring instant push notifications to nurse stations upon detecting anomalies. Leverage WebSocket protocol for reduced latency in alert delivery. |
+| Vitals UI Application for Medical Staff with MyMedicalData Integration | WHY: Comprehensive patient care requires consolidated vital profiles, and seamless integration with MyMedicalData enhances overall healthcare management. | WHAT: UI application for medical staff to generate consolidated patient vital profiles and upload data to MyMedicalData. | HOW: Implement a React-based Single Page Application (SPA) for the UI. Develop secure REST services (Node.js) for exposing vital measurements using HTTP-based polling. Integrate with MyMedicalData through secure HTTP API calls. |
+| Mobile App Access for Historical Patient Vital Profiles | WHY: Accessibility to historical vital profiles on mobile enhances flexibility and convenience for medical professionals, allowing them to make informed decisions. | WHAT: Evolve mobile app to add feature for medical professionals to view historical patient vital profiles. | HOW: Integrate the existing mobile app with secure REST services (Node.js) to fetch and display historical patient vital profiles. Implement secure HTTP API calls to retrieve data and ensure seamless integration with the mobile app. |
+
+
 ## High Level Architecture
 
 ![](https://github.com/infy-archs-katas/monitorme/blob/main/diagrams/C2-HospitalSystem.png)
@@ -13,10 +20,10 @@ The Hospital Software System is designed to facilitate comprehensive patient mon
 
 | Component Name  | Component Description | Technology Choices |
 | ------------- | ------------- | ------------- |
-| **Administration UI Application**  | An application for hospital administrators to perform tasks such as adding patients for monitoring, assigning monitoring devices, assigning nurses to nurse stations, and mapping patients to nurse stations.  | Single Page Application using React  |
+| **Administration UI Application**  | An application for hospital administrators to perform tasks such as adding patients for monitoring, assigning monitoring devices, assigning nurses to nurse stations, and mapping patients to nurse stations.  | Single Page Application using React [ADR]([ADR](https://github.com/infy-archs-katas/monitorme/blob/main/ADRs/Serving%20SPA%20from%20container.md))  |
 | **Database**  | Database component to store data related to patients, monitoring devices, nurses, and nurse stations.  | PostgreSQL  |
-| **Nurse Station UI Application**  | UI application for nurses to monitor patient vital metrics. It utilizes React with embedded Grafana dashboards for a visual representation of vital metrics.  | React with embedded Grafana dashboards [ADR](https://github.com/infy-archs-katas/monitorme/blob/main/ADRs/Choosing%20Grafana%20Embedded%20in%20SPA%20for%20Visualizing%20Metrics%20Data.md) |
-| **Vitals UI Application**  | UI application for medical staff to generate consolidated patient's vital profile for a requested time period. It includes upload functionality to MyMedicalData for a given patient.  | React Single Page Application  |
+| **Nurse Station UI Application**  | UI application for nurses to monitor patient vital metrics. It utilizes React with embedded Grafana dashboards for a visual representation of vital metrics.  | React with embedded Grafana dashboards [ADR](https://github.com/infy-archs-katas/monitorme/blob/main/ADRs/Choosing%20Grafana%20Embedded%20in%20SPA%20for%20Visualizing%20Metrics%20Data.md) [ADR]([ADR](https://github.com/infy-archs-katas/monitorme/blob/main/ADRs/Serving%20SPA%20from%20container.md)) |
+| **Vitals UI Application**  | UI application for medical staff to generate consolidated patient's vital profile for a requested time period. It includes upload functionality to MyMedicalData for a given patient.  | React Single Page Application [ADR](https://github.com/infy-archs-katas/monitorme/blob/main/ADRs/Serving%20SPA%20from%20container.md)  |
 | **API Component - Vitals REST Service**  | REST service for exposing vital measurements per vital type. [ADR](https://github.com/infy-archs-katas/monitorme/blob/main/ADRs/Polling%20Mechanism%20for%20Monitoring%20Dashboard.md) | Node.js  |
 | **API Component - Real-Time Alerts WebSocket Service**  | WebSocket service for pushing real-time alerts to single-page clients (web clients).[ADR](https://github.com/infy-archs-katas/monitorme/blob/main/ADRs/Websocket%20for%20Alerts.md)  | Node.js  |
 | **API Component - Snapshot REST Service**  | REST service for exposing snapshotting and snapshot upload functions, with secure integration with MyMedicalData via HTTP interface.  | Node.js  |
