@@ -37,3 +37,12 @@ Below is the high level architecture view of ***Metrics Capturing System***.
 - Event Streaming Patterns
 - Data Analytics
 - Anomalies Detection Patterms
+
+## Deployment View
+Below is the deployment view based on the architecture choice and ADRs.
+
+- [Anomaly Detection Algorithm.md](https://github.com/infy-archs-katas/monitorme/blob/main/ADRs/Anomaly%20Detection%20Algorithm.md)
+- [Data Store for Time Series Collections.md](https://github.com/infy-archs-katas/monitorme/blob/main/ADRs/Data%20Store%20for%20Time%20Series%20Collections.md)
+- [Event Streaming Broker.md](https://github.com/infy-archs-katas/monitorme/blob/main/ADRs/Event%20Streaming%20Broker.md)
+
+![](https://github.com/infy-archs-katas/monitorme/blob/main/diagrams/MCS-DeploymentView.png)
